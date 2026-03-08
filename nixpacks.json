@@ -6,6 +6,9 @@
     },
     "install": {
       "cmds": ["npm install"]
+    },
+    "start": {
+      "cmd": "npm start"
     }
   }
 }
