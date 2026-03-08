@@ -1,0 +1,11 @@
+{
+  "providers": ["node"],
+  "phases": {
+    "setup": {
+      "nixPkgs": ["nodejs_22", "python3"]
+    },
+    "install": {
+      "cmds": ["npm install"]
+    }
+  }
+}
